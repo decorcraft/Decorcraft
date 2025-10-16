@@ -1,0 +1,26 @@
+{
+  "packName": "Decorcraft – Coastal Windows",
+  "packFormat": 6,
+  "baseUrl": "https://raw.githubusercontent.com/decorcraft/Decorcraft/main/",
+  "templates": {
+    "coastal_window": {
+      "display": "Coastal Window",
+      "params": {
+        "size": ["1x1", "1x2", "1x3"],
+        "color": ["white", "sand", "navy"]
+      },
+      "skuPattern": "cw_{size}_{color}",
+      "paths": {
+        "model": "assets/minecraft/models/item/windows/cw_{size}_{color}.json",
+        "properties": "assets/minecraft/optifine/cit/windows/cw_{size}_{color}.properties",
+        "textures": [
+          "assets/minecraft/textures/item/windows/cw_{size}_{color}.png",
+          "assets/minecraft/textures/item/windows/cw_glass.png"
+        ],
+        "optifine": [
+          "assets/minecraft/optifine/emissive.properties"
+        ]
+      }
+    }
+  }
+}
